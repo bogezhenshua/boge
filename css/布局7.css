@@ -1,0 +1,20 @@
+.footer1{
+    height: 80px;
+    background: white;
+    color: #888888;
+    text-align: center;
+    padding-top: 10px;
+    position: relative;
+    bottom: -100px;
+}
+.footer1 ul li {
+    display: inline;
+}
+.footer1 ul li a {
+    color: #888888;
+    text-decoration: none;
+}
+.footer1 ul li a:hover{
+    text-decoration: underline;
+    color: #ff0000;
+}

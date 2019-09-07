@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bt1{
+    margin:  auto;
+    padding:20px;
+    list-style: none;
+    width:990px;
+    height: 50px;
+    position: relative;
+}
+.bt1 h1{
+    text-align: center;
+    position: relative;
+    margin:  0 auto;
+    padding: 0;
+
+}
+
+.aside1 {
+    margin: auto;
+    padding:0;
+    list-style: none;
+    width:990px;
+    height: 100px;
+    position: relative;
+}
+
+.aside1-left img{
+    width: 360px;
+    height: 360px;
+}
+.word-1{
+    margin: auto;
+    padding:0;
+    list-style: none;
+    width:990px;
+    position: relative;
+}
+/*.word2{*/
+    /*width:990px;*/
+    /*position: relative;*/
+    /*left: 365px;*/
+    /*bottom: 100px;*/
+/*}*/
+/*.word2 b{*/
+    /*font-size: 24px;*/
+    /*font-family: 黑体;*/
+/*}*/
+.word-content-1{
+    width: 623px;
+    position: relative;
+    left: 370px;
+    bottom: 110px;
+    text-indent: 2em;
+    line-height: 35px;
+    font-size: 14px;
+    text-align: justify;
+
+}
+.video1{
+    margin: auto;
+    padding:0;
+    width:360px;
+    height: 180px;
+    position: relative;
+    bottom: 290px;
+}
+.hr1{
+    position: relative;
+    bottom: 280px;
+    width: 100%;
+    size: 1px;
+    color:black;
+}
+/*上面是第一个*/
+.bt2{
+    margin: 0 auto;
+    padding:10px;
+    list-style: none;
+    width:990px;
+    height: 50px;
+    position: relative;
+    bottom: 200px;
+
+}
+.bt2 h1{
+    text-align: center;
+    position: relative;
+    top: -30px;
+    margin:  0 auto;
+    padding: 0;
+
+}
+.aside2 {
+    margin: auto;
+    padding:0;
+    list-style: none;
+    width:990px;
+    height: 100px;
+    position: relative;
+    bottom: 200px;
+
+}
+
+.aside2-left img {
+    width: 360px;
+    height: 360px;
+}
+.word-2{
+    margin: auto;
+    padding:0;
+    list-style: none;
+    width:990px;
+    position: relative;
+    bottom: 200px;
+
+}
+.word-content-2{
+    width: 623px;
+    position: relative;
+    left: 370px;
+    bottom: 110px;
+    text-indent: 2em;
+    line-height: 35px;
+    font-size: 14px;
+    text-align: justify;
+
+}
+.video2{
+    margin: auto;
+    padding:0;
+    width:360px;
+    height: 180px;
+    position: relative;
+    bottom: 290px;
+}
+.hr2{
+    position: relative;
+    bottom: 280px;
+    width: 100%;
+    size: 1px;
+    color:black;
+}
+/*上面是第二个*/
+.bt3{
+    margin: 0 auto;
+    padding:10px;
+    list-style: none;
+    width:990px;
+    height: 50px;
+    position: relative;
+    bottom: 400px;
+
+}
+.bt3 h1{
+    text-align: center;
+    position: relative;
+    top: -30px;
+    margin:  0 auto;
+    padding: 0;
+
+}
+.aside3 {
+    margin: auto;
+    padding: 0;
+    list-style: none;
+    width: 990px;
+    height: 100px;
+    position: relative;
+    bottom: 400px;
+}
+
+.aside3-left img {
+    width: 360px;
+    height: 360px;
+}
+.word-3{
+    margin: auto;
+    padding:0;
+    list-style: none;
+    width:990px;
+    position: relative;
+    bottom: 400px;
+
+}
+.word-content-3{
+    width: 623px;
+    position: relative;
+    left: 370px;
+    bottom: 110px;
+    text-indent: 2em;
+    line-height: 35px;
+    font-size: 14px;
+    text-align: justify;
+
+}
+.video3{
+    margin: auto;
+    padding:0;
+    width:360px;
+    height: 180px;
+    position: relative;
+    bottom: 290px;
+}
+.hr3{
+    position: relative;
+    bottom: 280px;
+    width: 100%;
+    size: 1px;
+    color:black;
+}
+/*上面是第三个*/
+.bt4{
+    margin: 0 auto;
+    padding:10px;
+    list-style: none;
+    width:990px;
+    height: 50px;
+    position: relative;
+    bottom: 600px;
+}
+.bt4 h1{
+    text-align: center;
+    position: relative;
+    top: -30px;
+    margin:  0 auto;
+    padding: 0;
+
+}
+.aside4 {
+    margin: auto;
+    padding:0;
+    list-style: none;
+    width:990px;
+    height: 100px;
+    position: relative;
+    bottom: 600px;
+
+}
+
+.aside4-left img {
+    width: 360px;
+    height: 360px;
+}
+.word-4{
+    margin: auto;
+    padding:0;
+    list-style: none;
+    width:990px;
+    position: relative;
+    bottom: 600px;
+
+}
+.word-content-4{
+    width: 623px;
+    position: relative;
+    left: 370px;
+    bottom: 110px;
+    text-indent: 2em;
+    line-height: 35px;
+    font-size: 14px;
+    text-align: justify;
+
+}
+.video4{
+    margin: auto;
+    padding:0;
+    width:360px;
+    height: 180px;
+    position: relative;
+    bottom: 290px;
+}
+.hr4{
+    position: relative;
+    bottom: 280px;
+    width: 100%;
+    size: 1px;
+    color:black;
+}
+/*上面是第四个*/
+.footer1{
+    height: 50px;
+    background: white;
+    color: #888888;
+    text-align: center;
+    position: relative;
+    padding-top: 5px;
+    bottom: -3110px;
+}
+.footer1 ul li {
+    display: inline;
+}
+.footer1 ul li a {
+    color: #888888;
+    text-decoration: none;
+}
+.footer1 ul li a:hover{
+    text-decoration: underline;
+    color: #ff0000;
+}
+.text1{
+    margin: 0 auto;
+    padding: 0;
+    height: 0;
+}

@@ -1,0 +1,31 @@
+#ft1{
+    margin: 0 auto;
+    padding: 0;
+    width: 990px;
+    height: 170px;
+    border: 1px double #CCC;
+    position: relative;
+    bottom: 850px;
+    overflow: hidden;
+
+}
+
+#ft1 ul {
+    list-style-type: none;
+    width: 200%;
+    height: 100%;
+    animation: picmove 5s linear infinite forwards;
+}
+#ft2 img{
+    float: left;
+    padding: 3px;
+}
+@keyframes picmove {
+    from {
+        transform: translate(0);
+    }
+    to {
+        transform: translate(-405px);
+    }
+}
+
