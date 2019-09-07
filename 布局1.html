@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="../css/布局1.css" type="text/css">
+    <link rel="stylesheet" href="../css/布局2.css" type="text/css">
+    <link rel="stylesheet" href="../css/布局文字.css" type="text/css">
+    <link rel="stylesheet" href="../css/布局轮播.css" type="text/css">
+    <link rel="stylesheet" href="../css/自动滑动布局.css" type="text/css">
+    <script src="../js/布局1左右滑动图片.js"></script>
+    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="../js/index-app2.js"></script>
+
+</head>
+<body>
+<!--这里是横幅-->
+    <div id="banner" onmouseover="mouseOver()" onmouseout="mouseOut()">
+        <img src="../images/chan01.jpg" id="logo" alt="肇庆风光景色"/>
+<!--这里是导航栏-->
+    <div id="nav">
+        <ul>
+            <li><a href="布局1.html">|首&nbsp;&nbsp;页|</a></li>
+            <li><a href="布局2.html">|景区介绍|</a></li>
+            <li><a href="布局3.html">|最新资讯|</a></li>
+            <li><a href="布局4.html">|著名人物|</a></li>
+            <li><a href="布局5.html">|精彩视频|</a></li>
+            <li><a href="布局6.html">|精彩音乐|</a></li>
+            <li><a href="布局7.html">|建议调查|</a></li>
+        </ul>
+    </div>
+</div>
+<div class="aside">
+   <!--左边的元素-->
+        <div class="aside-left">
+            <img src="../images/09.jpg" />
+        </div>
+        <!--滑动图片-->
+        <div id="box">
+            <p id="p1" class="txt_style">图片数据加载中...</p>
+            <a id="next" href="javascript:;">></a>
+            <a id="prev" href="javascript:;"><</a>
+            <span id="span1" class="txt_style">图片数量计算中...</span>
+            <img id="img1" />
+        </div>
+    <!--右边的元素-->
+    <div class="right">
+        <!--自定义列表-->
+    <dl>
+        <dt><a href="https://baike.baidu.com/item/%E8%82%87%E5%BA%86%E5%AE%8B%E5%9F%8E%E5%A2%99/195555?fr=aladdin" target="_blank"  >肇庆宋城墙</a></dt>
+        <dt><a href="https://baike.baidu.com/item/%E4%B8%83%E6%98%9F%E5%B2%A9/2135?fromtitle=%E8%82%87%E5%BA%86%E4%B8%83%E6%98%9F%E5%B2%A9&fromid=136819" target="_blank">肇庆七星岩</a></dt>
+        <dt><a href="https://baike.baidu.com/item/%E8%82%87%E5%BA%86%E6%98%9F%E6%B9%96" target="_blank">肇庆星湖</a></dt>
+        <dt><a href="https://baike.baidu.com/item/%E8%82%87%E5%BA%86%E7%BB%BF%E9%81%93" target="_blank">肇庆绿道</a></dt>
+        <dt><a href="https://baike.baidu.com/item/%E9%BC%8E%E6%B9%96%E5%B1%B1?fromtitle=%E8%82%87%E5%BA%86%E9%BC%8E%E6%B9%96%E5%B1%B1&fromid=134190" target="_blank">肇庆鼎湖山</a></dt>
+    </dl>
+    </div>
+
+    <!--自动滑动图片-->
+    <!--轮播-->
+    <div id="bk">
+        <div id="myCarousel" class="carousel slide" style="width:100%;">
+            <!-- 轮播（Carousel）指标 -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+            </ol>
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner">
+                <div id="pic0" class="item active">
+                    <img src="../images/11.jpg" alt="First slide"   style="height: 438px;width: 990px" />
+                </div>
+                <div id="pic1" class="item">
+                    <img src="../images/12.jpg"  alt="Second slide" style="height: 438px;width: 990px"/>
+                </div>
+                <div id="pic2" class="item">
+                    <img src="../images/13.jpg" alt="Third slide"  style="height: 438px;width: 990px"/>
+                </div>
+                <div id="pic3" class="item">
+                    <img src="../images/14.jpg" alt="fourth slide"  style="height: 438px;width: 990px"/>
+                </div>
+                <div id="pic4" class="item">
+                    <img src="../images/15.jpg" alt="fifth slide"   style="height: 438px;width: 990px"/>
+                </div>
+            </div>
+        </div>
+    </div>
+<div id="wrapper">
+    <div id="dm1">
+        <a href="https://www.sohu.com/a/21499274_211254" target="_blank"><img src="../images/16.jpg" style="height: 212px; width: 270px;"></a>
+        <h4><b>端州人的包公情结</b></h4>
+        <p>人们常说为官一任、造福一方，到底包拯在端州做过些什么，让他在这里一鸣惊人、从此开始了飞黄腾达的仕途呢？
+            包拯是北宋名臣，也是中国历史上最有名的一位清官，他因整顿吏治、惩治贪官、解除民困而被称为"包青天"，后世则敬称他为包公。
+            包拯在42岁（公元1040年）时做了端州的知州，这是他第一次担任州一级的行政长官，相当于现在的市长一职。而这个端州，也就是今天广东省的肇庆市，
+            那一年是。他因整顿吏治、惩治贪官、解除民困而被称为"包青天"，后世则敬称他为包公。
+        </p>
+    </div>
+    <div id="dm2">
+        <a href="http://www.sohu.com/a/21500462_211254" target="_blank"><img src="../images/17.jpg" style="height: 212px; width: 270px;"></a>
+        <h4><b>母仪龙德--一段关于龙母的传说</b></h4>
+        <p>龙母，作为一段传说，在广东、广西至越南北部一带都有流传。传说龙母是一位奇女子，父亲是广西藤县人氏，姓温，名天瑞；母亲系广东德庆县悦城人，姓梁。
+            她一生下来，头发就有一尺长，身体奇伟，脸慈祥。从小喜欢读书，一目十行，过目不忘。特别值得珍贵的是，她有一颗晶莹善良的心，当她长成亭亭玉立少女的时候，立下誓言：要利泽天下，为老百姓做点好事。
+            龙母有预知人间祸福的本领，精通各种医述，经常救死扶伤，义务为乡里百姓服务。
+        </p>
+    </div>
+        <div id="dm3">
+            <a href="http://www.360doc.com/content/15/1223/19/15932582_522599473.shtml" target="_blank" ><img src="../images/18.jpg" style="height: 212px; width: 270px;"></a>
+            <h4><b>宋徽宗赵佶与肇庆的故事</b></h4>
+            <p>肇庆之名的由来，相信很多市民都了然。肇庆古称端州，改名为肇庆是在900多年前的北宋重和元年(公元1118年)，宋徽宗亲笔御书“肇庆府”三字，端州故有此名，并沿用至今。
+                端州虽然历史悠久，但由于古代各朝各代行政区划与地名不断变化，在唐宋之前，端州并没有作为固定的历史地理概念被人熟知，相反今隶属于肇庆的高要、封开（封州），却频繁在出现在历史记载中。
+                记者翻阅史料得知，端州作为地区中心形象出现，应该是唐宋之后，尤其是以端州荣升为“府”。
+            </p>
+        </div>
+</div>
+</div>
+
+    <nav id="ft1">
+        <ul id="ft2">
+            <li><img src="../images/21.jpg"style="height: 212px; width: 270px;"></li>
+            <li><img src="../images/22.jpg"style="height: 212px; width: 270px;"></li>
+            <li><img src="../images/23.jpg"style="height: 212px; width: 270px;"></li>
+            <li><img src="../images/24.jpg"style="height: 212px; width: 270px;"></li>
+            <li><img src="../images/20.jpg"style="height: 212px; width: 270px;"></li>
+        </ul>
+    </nav>
+<div class="footer">
+    <ul>
+        <li><a href="布局1.html">首页</a></li> |
+        <li><a href="布局2.html">景区介绍</a></li> |
+        <li><a href="布局3.html">最新资讯</a></li> |
+        <li><a href="布局4.html">著名人物</a></li> |
+        <li><a href="布局5.html">精彩视频</a></li> |
+        <li><a href="布局6.html">精彩音乐</a></li> |
+        <li><a href="布局7.html">建议调查</a></li>
+    </ul>
+    <span>
+        归boge版权所有，未经书面授权禁止使用。
+    </span>
+    <br>
+    <span>
+        技术开发:boge
+    </span>
+    <br>
+</div>
+</body>
+</html>

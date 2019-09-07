@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>建议调查</title>
+    <link rel="stylesheet" href="../css/布局1.css" type="text/css">
+    <link rel="stylesheet" href="../css/布局7.css" type="text/css">
+    <script src="../js/布局1左右滑动图片.js"></script>
+</head>
+<body>
+<div id="banner" onmouseover="mouseOver()" onmouseout="mouseOut()">
+    <img src="../images/chan01.jpg" id="logo" alt="肇庆风光景色"/>
+    <!--这里是导航栏-->
+    <div id="nav">
+        <ul>
+            <li><a href="布局1.html">|首&nbsp;&nbsp;页|</a></li>
+            <li><a href="布局2.html">|景区介绍|</a></li>
+            <li><a href="布局3.html">|最新资讯|</a></li>
+            <li><a href="布局4.html">|著名人物|</a></li>
+            <li><a href="布局5.html">|精彩视频|</a></li>
+            <li><a href="布局6.html">|精彩音乐|</a></li>
+            <li><a href="布局7.html">|建议调查|</a></li>
+        </ul>
+    </div>
+</div>
+<h3><p align="center">景区建议调查表</p></h3>
+<form method="post" action="" enctype="text/plain">
+    <fieldset style="width: 980px;position: relative;margin: 0 auto;padding: 0">
+        <legend>人物基本信息</legend>
+        <ol>
+            <li>
+                个人名称：<input type="text" name="selfname" autofocus />
+            </li>
+            <li>
+                游玩过的景区：<input type="text" name="scene" />
+            </li>
+            <li>
+                对于景区的评价：
+                <select size="1" name="department">
+                    <option>非常满意</option>
+                    <option>较满意</option>
+                    <option>一般</option>
+                    <option>有待改进</option>
+                    <option>差</option>
+                </select>
+            </li>
+            <li>
+                性别：
+                <input type="radio" name="sex" value="女生" checked />女生
+                <input type="radio" name="sex" value="男生" />男生
+            </li>
+            <li>
+                日期：<input type="date" name="startdate" />
+            </li>
+        </ol>
+    </fieldset>
+    <br>
+    <fieldset style="width: 980px;position: relative;margin: 0 auto;padding: 0">
+        <legend>调查信息</legend>
+        <ol>
+            <li>
+                你来欣赏肇庆景区的记录
+                <input type="radio" name="assist" value="没有" />没有&nbsp;
+                <input type="radio" name="assist" value="1-3次" />1-3次&nbsp;
+                <input type="radio" name="assist" value="4-6次" />4-6次&nbsp;
+                <input type="radio" name="assist" value="6次以上" />6次以上
+            </li>
+            <li>
+                对于肇庆景区的服务态度
+                <input type="radio" name="attitude" value="很认真" />很认真&nbsp;
+                <input type="radio" name="attitude" value="还算认真" />还算认真&nbsp;
+                <input type="radio" name="attitude" value="很不认真" />很不认真
+            </li>
+            <li>
+                你来肇庆欣赏景区的原因
+                <input type="checkbox" name="reason" value="网络" />网络推荐
+                <input type="checkbox" name="reason" value="家人推荐" />家人推荐
+                <input type="checkbox" name="reason" value="个人兴趣" />个人兴趣
+                <input type="checkbox" name="reason" value="其他" />其他原因
+            </li>
+            <li>
+                你对肇庆景区的期望或改进的建议： <br />
+                <textarea rows="3" name="hope" cols="50"></textarea>
+            </li>
+        </ol>
+    </fieldset>
+    <br>
+    <input type="submit" value="提交"  style="position: relative;left: 420px; margin: 0 auto;padding: 0" />
+    <input type="reset" value="重填" style="position: relative;left: 420px; margin: 0 auto;padding: 0" />
+</form>
+<div class="footer1">
+    <ul>
+        <li><a href="布局1.html">首页</a></li> |
+        <li><a href="布局2.html">景区介绍</a></li> |
+        <li><a href="布局3.html">最新资讯</a></li> |
+        <li><a href="布局4.html">著名人物</a></li> |
+        <li><a href="布局5.html">精彩视频</a></li> |
+        <li><a href="布局6.html">精彩音乐</a></li> |
+        <li><a href="布局7.html">建议调查</a></li>
+    </ul>
+    <span>
+        归boge版权所有，未经书面授权禁止使用。
+    </span>
+    <br>
+    <span>
+        技术开发:boge
+    </span>
+    <br>
+</div>
+</body>
+</html>
